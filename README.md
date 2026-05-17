@@ -3,6 +3,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Pure Python](https://img.shields.io/badge/dependencies-zero-brightgreen?style=flat-square)](requirements.txt)
+[![Tests](https://img.shields.io/badge/tests-15%20modules-blue?style=flat-square)](tests/)
+[![Changelog](https://img.shields.io/badge/changelog-view-orange?style=flat-square)](CHANGELOG.md)
 
 A collection of practical, production-ready Python utilities built while working on crypto trading bots and AI agent systems. **Pure Python — zero external dependencies.**
 
@@ -85,5 +87,14 @@ async def fetch_orderbook(symbol: str) -> dict:
 
 Built for a live crypto futures trading bot (BTC/ETH/BNB/SOL on Binance) and multi-agent AI systems. When you're calling exchange APIs, running LLM chains, and processing live streams, you need reliable retry logic, rate limiting, and clean logging — without heavy frameworks.
 
+## Contributing
+
+Found a bug or want to add a utility? See [CONTRIBUTING.md](CONTRIBUTING.md).
+PRs welcome — please include a test for any new module.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
 ## License
-MIT
+MIT — see [LICENSE](LICENSE)
